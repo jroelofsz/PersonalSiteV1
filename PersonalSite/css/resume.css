@@ -1,238 +1,257 @@
-﻿/*
----------------------------------------------------------------------------------
-	STRIPPED DOWN RESUME TEMPLATE
-    html resume
-
-    v0.9: 5/28/09
-
-    design and code by: thingsthatarebrown.com 
-                        (matt brown)
----------------------------------------------------------------------------------
-*/
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
-
-
-.msg {
-    padding: 10px;
-    background: #222;
-    position: relative;
+﻿/* My Resume */
+.profile {
+    margin-bottom: 25px;
 }
 
-    .msg h1 {
-        color: #fff;
+    .profile .jobster-user-info {
+        display: inline-block;
+        width: 100%;
+        background-color: #151515;
     }
-
-    .msg a {
-        margin-left: 20px;
-        background: #408814;
-        color: white;
-        padding: 4px 8px;
-        text-decoration: none;
-    }
-
-        .msg a:hover {
-            background: #266400;
-        }
-
-/* //-- yui-grids style overrides -- */
-body {
-    font-family: Georgia;
-    color: #444;
+.backgroundApplication {
+    background-color: #151515;
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFF;
+    font-size: 1em;
+    margin-top: 2em;
 }
-.yui-gf h2 {
+.backgroundApplication h5 {
+    color: white;
+}
+.backgroundApplication h6 {
+    color: #ec5538;
+}
+.backgroundApplication h5 {
     font-size: 2em;
 }
-.job h2 {
-    font-size: 1.5em;
-}
-.yui-u h3 {
+.backgroundApplication h6 {
     font-size: 1.5em;
 }
 
-#inner {
-    padding: 10px 80px;
-    margin: auto;
-    background: #f5f5f5;
+.backgroundApplication a {
+    color: #fff;
+    text-decoration: underline;
+
 }
 
-.yui-gf {
-    margin-bottom: 2em;
-    padding-bottom: 2em;
-}
-.navbar-brand  {
-    font-family: 'Open Sans', sans-serif;
-}
-
-/* //-- header, body, footer -- */
-#hd {
-    margin: 2.5em 0 3em 0;
-    padding-bottom: 1.5em;
-}
-
-    #hd h2 {
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
-
-#bd, #ft {
-    margin-bottom: 2em;
-}
-
-/* //-- footer -- */
-#ft {
-    padding: 1em 0 5em 0;
-    font-size: 92%;
-    text-align: center;
-}
-
-    #ft p {
-        margin-bottom: 0;
-        text-align: center;
-    }
-
-/* //-- core typography and style -- */
-#hd h1 {
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-h2 {
-    font-size: 152%
-}
-
-h3, h4 {
-    font-size: 122%;
-}
-
-h1, h2, h3, h4 {
-    color: #333;
-}
-
-p {
-    font-size: 100%;
-    line-height: 18px;
-    padding-right: 3em;
-}
-
-a {
-    color: #990003
-}
-
-    a:hover {
-        text-decoration: none;
-    }
-
-strong {
-    font-weight: bold;
-}
-
-li {
-    line-height: 24px;
-}
-
-p.enlarge {
-    font-size: 144%;
-    padding-right: 6.5em;
-    line-height: 24px;
-}
-
-    p.enlarge span {
-        color: #000
-    }
-
-.contact-info {
-    margin-top: 7px;
-}
-
-.first h2 {
-    font-style: italic;
-}
-
-.last {
-    border-bottom: 0
-}
-
-
-/* //-- section styles -- */
-
-a#pdf {
-    display: block;
-    float: left;
-    background: #666;
-    color: white;
-    padding: 6px 50px 6px 12px;
-    margin-bottom: 6px;
-    text-decoration: none;
-}
-
-    a#pdf:hover {
-        background: #222;
-    }
-
-.job {
-    position: relative;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-}
-
-    .job h4 {
-        position: absolute;
-        top: 0.35em;
-        right: 0
-    }
-
-    .job p {
-        margin: 0.75em 0 3em 0;
-    }
-
-.last {
-    border: none;
-}
-
-.skills-list {
-}
-
-    .skills-list ul {
-        margin: 0;
-    }
-
-    .skills-list li {
-        margin: 3px 0;
-        padding: 3px 0;
-    }
-
-        .skills-list li span {
-            font-size: 152%;
-            display: block;
-            margin-bottom: -2px;
-            padding: 0
+        .profile .jobster-user-info .profile-avatar {
+            position: relative;
+            height: 115px;
+            width: 115px;
+            border-radius: 100%;
+            display: inline-block;
         }
 
-.talent {
-    width: 32%;
-    float: left
+            .profile .jobster-user-info .profile-avatar img {
+                border-radius: 100%;
+            }
+
+            .profile .jobster-user-info .profile-avatar i {
+                font-size: 16px;
+                color: #EC5538;
+                position: absolute;
+                background: #ffffff;
+                border-radius: 100%;
+                cursor: pointer;
+                height: 30px;
+                width: 30px;
+                line-height: 30px;
+                text-align: center;
+                bottom: 20px;
+                right: -5px;
+            }
+
+.about-candidate {
+    padding: 25px 0px;
 }
 
-    .talent h2 {
-        margin-bottom: 6px;
+    .about-candidate .candidate-info {
+        margin-bottom: 20px;
     }
 
-#srt-ttab {
-    margin-bottom: 100px;
-    text-align: center;
+.resume-experience {
+    padding-left: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    padding-right: 50px;
+    background: #f6f6f6;
 }
 
-    #srt-ttab img.last {
-        margin-top: 20px
+    .resume-experience:before {
+        position: absolute;
+        left: -40%;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: #f6f6f6;
+        content: "";
+        z-index: -1;
+        top: 0;
     }
 
-/* --// override to force 1/8th width grids -- */
-.yui-gf .yui-u {
-    width: 80.2%;
+    .resume-experience .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle {
+        border-color: #f6f6f6;
+    }
+
+.user-dashboard-info-box .select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-weight: bold;
+    color: #626262;
 }
 
-.yui-gf div.first {
-    width: 12.3%;
+@media (max-width: 1199px) {
+    .secondary-menu ul li a {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .resume-experience {
+        padding-left: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 15px;
+    }
+
+        .resume-experience:before {
+            content: none;
+        }
+
+    .secondary-menu ul li {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 575px) {
+    .secondary-menu ul li a {
+        padding: 4px 8px;
+    }
+}
+
+/*****************************
+    Progress Bar
+*****************************/
+.progress {
+    position: relative;
+    overflow: inherit;
+    height: 3px;
+    margin: 40px 0px 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+    .progress .progress-bar {
+        height: 3px;
+        background: #EC5538;
+    }
+
+    .progress .progress-bar-title {
+        position: absolute;
+        left: 0;
+        top: -20px;
+        color: #212529;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .progress .progress-bar-number {
+        position: absolute;
+        right: 0;
+        color: #646f79;
+        top: -20px;
+    }
+
+
+/* Jobster Candidate */
+.jobster-candidate-timeline {
+    position: relative;
+}
+
+    .jobster-candidate-timeline:before {
+        content: "";
+        position: absolute;
+        left: 20px;
+        width: 2px;
+        top: 5px;
+        bottom: 5px;
+        height: calc(100% - 5px);
+        background-color: #eeeeee;
+    }
+
+    .jobster-candidate-timeline .jobster-timeline-item {
+        display: table;
+        position: relative;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+        .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle {
+            border-radius: 50%;
+            border: 12px solid white;
+            z-index: 1;
+            top: 5px;
+            left: 9px;
+            position: absolute;
+        }
+
+            .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle:before {
+                content: "";
+                position: absolute;
+                left: 12px;
+                width: 20px;
+                top: -1px;
+                bottom: 5px;
+                height: 2px;
+                background-color: #eeeeee;
+            }
+
+            .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle > i {
+                font-size: 15px;
+                top: -8px;
+                left: -7px;
+                position: absolute;
+                color: #EC5538;
+            }
+
+        .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info {
+            display: table-cell;
+            vertical-align: top;
+            padding: 5px 0 0 70px;
+        }
+
+            .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info h6 {
+                color: #EC5538;
+                margin: 5px 0 0px;
+            }
+
+            .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info span {
+                color: #212529;
+                font-size: 13px;
+                font-weight: 500;
+            }
+
+    .jobster-candidate-timeline span.jobster-timeline-time {
+        color: #646f79 !important;
+    }
+
+    .jobster-candidate-timeline .jobster-timeline-icon {
+        border: 2px solid #eeeeee;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        line-height: 42px;
+        text-align: center;
+        background: #ffffff;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+        .jobster-candidate-timeline .jobster-timeline-icon i {
+            font-size: 16px;
+            color: #212529;
+        }
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 16px;
 }
