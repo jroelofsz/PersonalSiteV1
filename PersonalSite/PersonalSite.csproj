@@ -70,6 +70,7 @@
     <Content Include="404.html" />
     <Content Include="css\custom.css" />
     <Content Include="css\resume.css" />
+    <Content Include="images\class\billMcCarty.jpg" />
     <Content Include="images\services\groceries.png" />
     <Content Include="resume.html" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
