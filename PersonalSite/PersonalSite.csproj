@@ -71,7 +71,9 @@
     <Content Include="css\custom.css" />
     <Content Include="css\resume.css" />
     <Content Include="images\class\billMcCarty.jpg" />
+    <Content Include="images\class\ProfressionalProfilePic %281%29.jpg" />
     <Content Include="images\services\groceries.png" />
+    <Content Include="images\thumbnails\FED1StudioThumb.jpg" />
     <Content Include="resume.html" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
