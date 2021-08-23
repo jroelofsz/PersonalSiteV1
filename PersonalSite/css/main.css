@@ -587,6 +587,7 @@ input.search-form:hover {
 
 .recent-work-wrap img {
     width: 100%;
+    height: 260px;
 }
 
 .recent-work-wrap .recent-work-inner {

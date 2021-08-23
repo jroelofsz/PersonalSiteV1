@@ -70,9 +70,15 @@
     <Content Include="404.html" />
     <Content Include="css\custom.css" />
     <Content Include="css\resume.css" />
-    <Content Include="images\class\billMcCarty.jpg" />
+    <Content Include="images\class\amandaallen.jpg" />
+    <Content Include="images\class\ashleysmith.jpg" />
+    <Content Include="images\class\calebmitchell.jpg" />
+    <Content Include="images\class\coreymanderson.jpg" />
+    <Content Include="images\class\michaelrussell.jpg" />
+    <Content Include="images\class\profilepic.jpg" />
     <Content Include="images\class\ProfressionalProfilePic %281%29.jpg" />
     <Content Include="images\services\groceries.png" />
+    <Content Include="images\thumbnails\dungeonThumbnail.png" />
     <Content Include="images\thumbnails\FED1StudioThumb.jpg" />
     <Content Include="resume.html" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
